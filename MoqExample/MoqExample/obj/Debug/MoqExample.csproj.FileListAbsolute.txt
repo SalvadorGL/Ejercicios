@@ -1,4 +1,0 @@
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\MoqExample\bin\Debug\MoqExample.dll
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\MoqExample\bin\Debug\MoqExample.pdb
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\MoqExample\obj\Debug\MoqExample.dll
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\MoqExample\obj\Debug\MoqExample.pdb
