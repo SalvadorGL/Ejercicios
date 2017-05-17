@@ -1,6 +1,0 @@
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToSOAP\ClientToSOAP\bin\Debug\ClientToSOAP.exe.config
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToSOAP\ClientToSOAP\obj\Debug\ClientToSOAP.csprojResolveAssemblyReference.cache
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToSOAP\ClientToSOAP\bin\Debug\ClientToSOAP.exe
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToSOAP\ClientToSOAP\bin\Debug\ClientToSOAP.pdb
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToSOAP\ClientToSOAP\obj\Debug\ClientToSOAP.exe
-c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToSOAP\ClientToSOAP\obj\Debug\ClientToSOAP.pdb
