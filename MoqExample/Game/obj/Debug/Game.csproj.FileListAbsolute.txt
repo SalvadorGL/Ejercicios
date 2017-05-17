@@ -1,0 +1,8 @@
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\bin\Debug\Game.exe.config
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\bin\Debug\Game.exe
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\bin\Debug\Game.pdb
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\bin\Debug\MoqExample.dll
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\bin\Debug\MoqExample.pdb
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\obj\Debug\Game.exe
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\MoqExample\Game\obj\Debug\Game.pdb
