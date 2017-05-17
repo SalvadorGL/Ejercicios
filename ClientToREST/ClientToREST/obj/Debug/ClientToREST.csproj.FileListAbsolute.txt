@@ -1,0 +1,8 @@
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToREST\ClientToREST\bin\Debug\ClientToREST.exe.config
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToREST\ClientToREST\bin\Debug\ClientToREST.exe
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToREST\ClientToREST\bin\Debug\ClientToREST.pdb
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToREST\ClientToREST\obj\Debug\ClientToREST.exe
+c:\users\salvador.gonzalezl\documents\visual studio 2015\Projects\ClientToREST\ClientToREST\obj\Debug\ClientToREST.pdb
+C:\Users\salvador.gonzalezl\Documents\Visual Studio 2015\Projects\ClientToREST\ClientToREST\obj\Debug\ClientToREST.csprojResolveAssemblyReference.cache
+C:\Users\salvador.gonzalezl\Documents\Visual Studio 2015\Projects\ClientToREST\ClientToREST\bin\Debug\Newtonsoft.Json.dll
+C:\Users\salvador.gonzalezl\Documents\Visual Studio 2015\Projects\ClientToREST\ClientToREST\bin\Debug\Newtonsoft.Json.xml
