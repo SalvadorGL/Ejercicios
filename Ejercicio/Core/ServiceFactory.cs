@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ServiceModel;
+using System.ServiceModel.Description;
 
 namespace Core
 {
@@ -14,9 +9,18 @@ namespace Core
         {            
             var endPointAddress = new EndpointAddress("http://www.webservicex.net/CurrencyConvertor.asmx?wsdl");
             var binding = new BasicHttpBinding();
-            CurrencyConvertorSoapClient claseProxy = new CurrencyConvertorSoapClient(binding, endPointAddress);
+            binding.Security.Mode = BasicHttpSecurityMode.Transport;
+            binding.Security.Transport.ClientCredentialType = HttpClientCredentialType.Basic;
 
+            CurrencyConvertorSoapClient claseProxy = new CurrencyConvertorSoapClient(binding, endPointAddress);
             claseProxy.Endpoint.EndpointBehaviors.Add(new SOAPMessageInspector());
+
+            ClientCredentials loginCredentials = new ClientCredentials();
+            
+            loginCredentials.UserName.UserName = "myusername";
+            loginCredentials.UserName.Password = "mypassword";
+
+            claseProxy.Endpoint.EndpointBehaviors.Add(loginCredentials);
 
             return claseProxy;
         }

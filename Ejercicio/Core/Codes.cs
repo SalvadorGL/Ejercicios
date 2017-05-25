@@ -1,42 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿/// <summary>
+/// 
+/// </summary>
 namespace Core
 {
+    /// <summary>
+    /// Codes Catalog
+    /// </summary>
     public class Codes
     {
-        public Result recievedCode;
+        private Result recievedCode;
 
         public Result GetCode(string code)
         {
             switch (code)
             {
                 case "200":
-                    recievedCode = new Result() { Overrall = Status.Success, Code = "18.5", Message = "Fair" };
-                    return recievedCode;
+                    this.recievedCode = new Result() { Overrall = Status.Success, Code = "18.5", Message = "Fair" };
+                    return this.recievedCode;
                 case "201":
-                    recievedCode = new Result() { Overrall = Status.Success, Code = "17.5", Message = "Fair" };
-                    return recievedCode;
+                    this.recievedCode = new Result() { Overrall = Status.Success, Code = "17.5", Message = "Fair" };
+                    return this.recievedCode;
                 case "202":
-                    recievedCode = new Result() { Overrall = Status.Success, Code = "202", Message = "Acepted" };
-                    return recievedCode;
+                    this.recievedCode = new Result() { Overrall = Status.Success, Code = "202", Message = "Acepted" };
+                    return this.recievedCode;
                 case "400":
-                    recievedCode = new Result() { Overrall = Status.Fail, Code = "400", Message = "Error(Client)" };
-                    return recievedCode;
+                    this.recievedCode = new Result() { Overrall = Status.Fail, Code = "400", Message = "Error(Client)" };
+                    return this.recievedCode;
                 case "500":
-                    recievedCode = new Result() { Overrall = Status.Fail, Code = "13.2", Message = "asdasd" };
-                    return recievedCode;
+                    this.recievedCode = new Result() { Overrall = Status.Fail, Code = "13.2", Message = "asdasd" };
+                    return this.recievedCode;
                 case "700":
-                    recievedCode = new Result() { Overrall = Status.Unknown, Code = "700", Message = "Unknown" };
-                    return recievedCode;
+                    this.recievedCode = new Result() { Overrall = Status.Unknown, Code = "700", Message = "Unknown" };
+                    return this.recievedCode;
                 default:
-                    recievedCode = new Result() { Overrall = Status.Unknown, Code = code , Message = "Unknown" };
-                    return recievedCode;
+                    this.recievedCode = new Result() { Overrall = Status.Unknown, Code = code, Message = "Unknown" };
+                    return this.recievedCode;
             }
         }
-
     }
 }

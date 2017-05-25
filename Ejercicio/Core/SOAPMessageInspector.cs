@@ -1,29 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel;
+﻿using System.ServiceModel;
 using System.ServiceModel.Channels;
 using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core
 {
     public class SOAPMessageInspector : IClientMessageInspector, IEndpointBehavior
     {
-        public string RequestXML { get; set; }
-        public string ResponseXML { get; set; }
-
         public void AddBindingParameters(ServiceEndpoint endpoint, BindingParameterCollection bindingParameters)
         {
-            //throw new NotImplementedException();
         }
 
         public void AfterReceiveReply(ref Message reply, object correlationState)
         {
-            log4net.log.Info("AfterReceiveReply: " + reply.ToString());
-            ResponseXML = reply.ToString();
+            Log4net.Log.Info("AfterReceiveReply: " + reply.ToString());
         }
 
         public void ApplyClientBehavior(ServiceEndpoint endpoint, ClientRuntime clientRuntime)
@@ -33,22 +23,20 @@ namespace Core
 
         public void ApplyDispatchBehavior(ServiceEndpoint endpoint, EndpointDispatcher endpointDispatcher)
         {
-            //throw new NotImplementedException();
         }
 
         public object BeforeSendRequest(ref Message request, IClientChannel channel)
         {
-            log4net.log.Info("BeforeSendRequest" + request.ToString());
-            RequestXML = request.ToString();
+            Log4net.Log.Info("BeforeSendRequest" + request.ToString());
             HttpRequestMessageProperty httpRequestMessage = new HttpRequestMessageProperty();
             httpRequestMessage.Headers.Add("MyHeaderElement", "MyValue");
-            //request.Properties.Add()
+            request.Properties.Add("MyName", httpRequestMessage);
+            
             return request;
         }
 
         public void Validate(ServiceEndpoint endpoint)
         {
-            //throw new NotImplementedException();
         }
     }
 }

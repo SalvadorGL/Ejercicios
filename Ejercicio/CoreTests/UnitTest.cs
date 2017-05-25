@@ -9,15 +9,11 @@ namespace CoreTests
     [TestClass]
     public class UnitTest
     {
-
-        //static ILog log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         [TestMethod]
         public void Doit_RESPONSE_RECIEVED()
         {
             Processor processor = new Processor(new ServiceFactory());
-            //log.Debug("Consuming Service.");
             Result result = processor.Doit(www.webservicex.net.Currency.USD, www.webservicex.net.Currency.MXN);
-            //log.Debug("Service response: " + result.Message);
             Assert.IsNotNull(result);
             Assert.IsTrue(result.Code != null);
         }

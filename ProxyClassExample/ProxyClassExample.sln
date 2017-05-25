@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyClassExample", "ProxyClassExample\ProxyClassExample.csproj", "{F4840F2E-13E8-43A0-B60F-AAF53F3F21C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{820FF48E-490D-40BA-93A0-0FA3C4D58A12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4840F2E-13E8-43A0-B60F-AAF53F3F21C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4840F2E-13E8-43A0-B60F-AAF53F3F21C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4840F2E-13E8-43A0-B60F-AAF53F3F21C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4840F2E-13E8-43A0-B60F-AAF53F3F21C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820FF48E-490D-40BA-93A0-0FA3C4D58A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820FF48E-490D-40BA-93A0-0FA3C4D58A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820FF48E-490D-40BA-93A0-0FA3C4D58A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820FF48E-490D-40BA-93A0-0FA3C4D58A12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
