@@ -28,7 +28,7 @@ namespace Core
 
         public void ApplyClientBehavior(ServiceEndpoint endpoint, ClientRuntime clientRuntime)
         {
-            //throw new NotImplementedException();
+            clientRuntime.MessageInspectors.Add(this);
         }
 
         public void ApplyDispatchBehavior(ServiceEndpoint endpoint, EndpointDispatcher endpointDispatcher)
